@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d47763e10b0e79be0f11187ae3359f8b",
+    "content-hash": "68cde6e26bda248b11115e03d3dbd1d0",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2344,115 +2344,6 @@
             "time": "2020-09-26T13:20:57+00:00"
         },
         {
-            "name": "orchid/platform",
-            "version": "10.18.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/orchidsoftware/platform.git",
-                "reference": "e4cc3ec4693001a54429d0c98ad28d76c1bb8449"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/orchidsoftware/platform/zipball/e4cc3ec4693001a54429d0c98ad28d76c1bb8449",
-                "reference": "e4cc3ec4693001a54429d0c98ad28d76c1bb8449",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "laravel/framework": "^8.46",
-                "laravel/scout": "^8.5|^9.0",
-                "myclabs/php-enum": "^1.7",
-                "orchid/blade-icons": "^1.2",
-                "orchid/icons": "^2.0",
-                "tabuna/breadcrumbs": "^2.3",
-                "watson/active": "^6.0"
-            },
-            "conflict": {
-                "laravel/framework": "<8.46.0"
-            },
-            "require-dev": {
-                "doctrine/dbal": "^2.10",
-                "fakerphp/faker": "^1.9.1",
-                "guzzlehttp/guzzle": "~6.0",
-                "mockery/mockery": "~1.0",
-                "orchestra/testbench-core": "^6.2",
-                "orchestra/testbench-dusk": "^6.1",
-                "phpunit/php-code-coverage": "^9.0",
-                "phpunit/phpunit": "^9.0",
-                "sti3bas/laravel-scout-array-driver": "^2.2",
-                "vimeo/psalm": "^4.3"
-            },
-            "suggest": {
-                "orchid/crud": "Automated CRUD based on your files resources.",
-                "orchid/fortify": "Orchid template for Laravel Fortify."
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Orchid\\Platform\\Providers\\FoundationServiceProvider"
-                    ],
-                    "aliases": {
-                        "Alert": "Orchid\\Support\\Facades\\Alert",
-                        "Dashboard": "Orchid\\Support\\Facades\\Dashboard"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Orchid\\Access\\": "src/Access/",
-                    "Orchid\\Alert\\": "src/Alert/",
-                    "Orchid\\Attachment\\": "src/Attachment/",
-                    "Orchid\\Filters\\": "src/Filters/",
-                    "Orchid\\Metrics\\": "src/Metrics/",
-                    "Orchid\\Platform\\": "src/Platform/",
-                    "Orchid\\Screen\\": "src/Screen/",
-                    "Orchid\\Support\\": "src/Support/"
-                },
-                "files": [
-                    "src/Support/helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Alexandr Chernyaev",
-                    "email": "bliz48rus@gmail.com",
-                    "homepage": "https://tabuna.github.io",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Platform for back-office applications, admin panel or CMS your Laravel app.",
-            "homepage": "https://orchid.software",
-            "keywords": [
-                "admin",
-                "cmf",
-                "cms",
-                "extranet",
-                "framework",
-                "laravel",
-                "orchid",
-                "platform",
-                "rad"
-            ],
-            "support": {
-                "docs": "https://orchid.software/en/docs",
-                "email": "bliz48rus@gmail.com",
-                "issues": "https://github.com/orchidsoftware/platform/issues",
-                "source": "https://github.com/orchidsoftware/platform"
-            },
-            "funding": [
-                {
-                    "url": "https://opencollective.com/orchid",
-                    "type": "opencollective"
-                }
-            ],
-            "time": "2021-09-28T15:28:28+00:00"
-        },
-        {
             "name": "phpoption/phpoption",
             "version": "1.8.0",
             "source": {
@@ -3178,20 +3069,20 @@
         },
         {
             "name": "rutatiina/orchid-crud",
-            "version": "3.0.1",
+            "version": "3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rutatiina/orchid-crud.git",
-                "reference": "92f9736d715be852c79e00ab3f1e50447bd9ec02"
+                "reference": "b86366b3ef35ea789e0decc6c6f6815e35bb9bf7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rutatiina/orchid-crud/zipball/92f9736d715be852c79e00ab3f1e50447bd9ec02",
-                "reference": "92f9736d715be852c79e00ab3f1e50447bd9ec02",
+                "url": "https://api.github.com/repos/rutatiina/orchid-crud/zipball/b86366b3ef35ea789e0decc6c6f6815e35bb9bf7",
+                "reference": "b86366b3ef35ea789e0decc6c6f6815e35bb9bf7",
                 "shasum": ""
             },
             "require": {
-                "orchid/platform": "^10.0"
+                "rutatiina/orchid-platform": "^10.0"
             },
             "require-dev": {
                 "orchestra/testbench": "^6.0",
@@ -3216,19 +3107,19 @@
             ],
             "authors": [
                 {
-                    "name": "Alexandr Chernyaev",
-                    "email": "bliz48rus@gmail.com",
+                    "name": "Gilbert Rutatiina",
+                    "email": "rutatiina@gmail.com",
                     "role": "Developer"
                 }
             ],
             "description": "Build CRUD apps in fewer lines of code for Laravel Orchid.",
-            "homepage": "https://github.com/orchid/crud",
+            "homepage": "https://github.com/rutatiina/orchid-crud",
             "keywords": [
                 "crud",
                 "orchid"
             ],
             "support": {
-                "source": "https://github.com/rutatiina/orchid-crud/tree/3.0.1"
+                "source": "https://github.com/rutatiina/orchid-crud/tree/3.1"
             },
             "funding": [
                 {
@@ -3236,7 +3127,119 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2021-07-06T10:16:00+00:00"
+            "time": "2021-10-12T11:20:32+00:00"
+        },
+        {
+            "name": "rutatiina/orchid-platform",
+            "version": "10.19.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rutatiina/orchid-platform.git",
+                "reference": "09b80d875b2f9f15db82a0aa2a81b7ce5dbb2c61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rutatiina/orchid-platform/zipball/09b80d875b2f9f15db82a0aa2a81b7ce5dbb2c61",
+                "reference": "09b80d875b2f9f15db82a0aa2a81b7ce5dbb2c61",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "laravel/framework": "^8.46",
+                "laravel/scout": "^8.5|^9.0",
+                "myclabs/php-enum": "^1.7",
+                "orchid/blade-icons": "^1.2",
+                "orchid/icons": "^2.0",
+                "tabuna/breadcrumbs": "^2.3",
+                "watson/active": "^6.0"
+            },
+            "conflict": {
+                "laravel/framework": "<8.46.0"
+            },
+            "require-dev": {
+                "doctrine/dbal": "^2.10",
+                "fakerphp/faker": "^1.9.1",
+                "guzzlehttp/guzzle": "~6.0",
+                "mockery/mockery": "~1.0",
+                "orchestra/testbench-core": "^6.2",
+                "orchestra/testbench-dusk": "^6.1",
+                "phpunit/php-code-coverage": "^9.0",
+                "phpunit/phpunit": "^9.0",
+                "sti3bas/laravel-scout-array-driver": "^2.2",
+                "vimeo/psalm": "^4.3"
+            },
+            "suggest": {
+                "orchid/crud": "Automated CRUD based on your files resources.",
+                "orchid/fortify": "Orchid template for Laravel Fortify."
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Orchid\\Platform\\Providers\\FoundationServiceProvider"
+                    ],
+                    "aliases": {
+                        "Alert": "Orchid\\Support\\Facades\\Alert",
+                        "Dashboard": "Orchid\\Support\\Facades\\Dashboard"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Orchid\\Access\\": "src/Access/",
+                    "Orchid\\Alert\\": "src/Alert/",
+                    "Orchid\\Attachment\\": "src/Attachment/",
+                    "Orchid\\Filters\\": "src/Filters/",
+                    "Orchid\\Metrics\\": "src/Metrics/",
+                    "Orchid\\Platform\\": "src/Platform/",
+                    "Orchid\\Screen\\": "src/Screen/",
+                    "Orchid\\Support\\": "src/Support/"
+                },
+                "files": [
+                    "src/Support/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rutatiina Gilbert",
+                    "email": "rutatiina@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Platform for back-office applications, admin panel or CMS your Laravel app.",
+            "homepage": "https://orchid.software",
+            "keywords": [
+                "admin",
+                "cmf",
+                "cms",
+                "extranet",
+                "framework",
+                "laravel",
+                "orchid",
+                "platform",
+                "rad"
+            ],
+            "support": {
+                "docs": "https://orchid.software/en/docs",
+                "email": "bliz48rus@gmail.com",
+                "issues": "https://github.com/orchidsoftware/platform/issues",
+                "source": "https://github.com/orchidsoftware/platform"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/tabuna/10usd",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://opencollective.com/orchid",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2021-10-12T11:07:08+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
